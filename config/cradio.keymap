@@ -57,7 +57,7 @@
 		&kp EXCL &kp AT &kp POUND &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LPAR &kp RPAR
 		&kp TAB &kp GRAVE &kp TILDE &kp LEFT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp UNDERSCORE &kp NUBS &kp QUOTE
 		&kp PLUS &kp IT_PERC &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT  &kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp MINUS
-					                                        &kp ESC  &mo SYM2       &trans &trans
+					                                        &kp ESC  &mo BASE       &trans &trans
 		>;
 		};
 
@@ -67,7 +67,7 @@
 		&kp ESC  &trans &trans  &trans  &trans    			        &kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
 		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
 		&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
-					                        &trans &kp LCTRL    &kp ENTER  &mo FNC 
+					                        &trans &kp LCTRL    &kp ENTER  &mo BASE 
 		>;
 		};
         
