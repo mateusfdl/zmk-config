@@ -51,7 +51,6 @@
 		sym_layer {
 			bindings = <
 						&kp EXCL &kp AT &kp POUND &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LPAR &kp RPAR
-						&kp TAB &kp GRAVE &kp TILDE &kp LEFT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp UNDERSCORE &kp NUBS &kp QUOTE
 			>;
 		};
 	};
