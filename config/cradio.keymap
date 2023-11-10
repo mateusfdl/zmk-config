@@ -52,8 +52,6 @@
 			bindings = <
 						&kp EXCL &kp AT &kp POUND &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LPAR &kp RPAR
 						&kp TAB &kp GRAVE &kp TILDE &kp LEFT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp UNDERSCORE &kp NUBS &kp QUOTE
-						&kp PLUS &kp IT_PERC &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT  &kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp MINUS
-																			&kp ESC  &mo BASE       &trans &trans
 			>;
 		};
 	};
