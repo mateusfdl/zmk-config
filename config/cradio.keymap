@@ -47,19 +47,19 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R                    &kp T        &kp Y        &kp U  &kp I                 &kp O         &kp P
-&kp A  &kp S  &kp D  &kp F                    &kp G        &kp H        &kp J  &kp K                 &kp L         &kp BACKSPACE
-&kp Z  &kp X  &kp C  &kp V                    &kp B        &kp N        &kp M  &td UNDERSCORE SLASH  &td EXCL DOT  &kp RIGHT_SHIFT
-                     &mt LC(LS(LALT)) ESCAPE  &kp SPACE    &lt 1 ENTER  &to 1
+&kp Q  &kp W  &kp E  &kp R                    &kp T              &kp Y        &kp U  &kp I                 &kp O         &kp P
+&kp A  &kp S  &kp D  &kp F                    &kp G              &kp H        &kp J  &kp K                 &kp L         &kp BACKSPACE
+&kp Z  &kp X  &kp C  &kp V                    &kp B              &kp N        &kp M  &td UNDERSCORE SLASH  &td EXCL DOT  &kp RIGHT_SHIFT
+                     &mt LC(LS(LALT)) ESCAPE  &mt LCTRL SPACE    &lt 1 ENTER  &to 1
             >;
         };
 
         sym {
             bindings = <
-&kp ESC    &kp ATSN    &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT     &kp CARET  &kp LS(COMMA)  &kp LS(DOT)  &kp SEMI  &kp BKSP
-&kp TAB    &kp EQUAL   &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT       &kp BSLH   &kp LBRC       &kp RBRC     &kp PIPE  &kp ENTER
-&kp TILDE  &kp LA(N3)  &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT       &kp LBKT   &kp LPRN       &kp RPRN     &kp RBKT  &to 3
-                                                  &to 0             &sk LSHIFT    &sk RALT   &to 2
+&kp EXCLAMATION  &kp AT        &kp HASH      &kp DLLR          &kp PRCNT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &kp EQUAL          &kp BKSP
+&kp AMPERSAND    &kp ASTERISK  &kp LA(RBKT)  &kp LA(LS(RBKT))  &kp SQT       &kp LEFT_BRACKET      &kp LBRC               &kp RBRC       &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
+&kp TILDE        &kp GRAVE     &kp LA(LBKT)  &kp LA(LS(LBKT))  &kp DQT       &kp COMMA             &kp DOT                &kp LESS_THAN  &kp GREATER_THAN   &kp QUESTION
+                                             &to 0             &sk LSHIFT    &sk RALT              &to 2
             >;
         };
 
