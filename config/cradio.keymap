@@ -66,10 +66,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R                    &kp T              &kp Y        &kp U  &kp I                &kp O                    &kp P
-&kp A  &kp S  &kp D  &kp F                    &kp G              &kp H        &kp J  &kp K                &kp L                    &kp BACKSPACE
-&kp Z  &kp X  &kp C  &kp V                    &kp B              &kp N        &kp M  &td RCTRL SEMICOLON  &td RIGHT_COMMAND COLON  &kp RIGHT_SHIFT
-                     &mt LC(LS(LALT)) ESCAPE  &mt LCTRL SPACE    &lt 1 ENTER  &to 1
+&kp Q    &kp W  &kp E  &kp R                    &kp T              &kp Y        &kp U  &kp I                &kp O                    &kp P
+&kp A    &kp S  &kp D  &kp F                    &kp G              &kp H        &kp J  &kp K                &kp L                    &kp BACKSPACE
+&lt 2 Z  &kp X  &kp C  &kp V                    &kp B              &kp N        &kp M  &td RCTRL SEMICOLON  &td RIGHT_COMMAND COLON  &kp RIGHT_SHIFT
+                       &mt LC(LS(LALT)) ESCAPE  &mt LCTRL SPACE    &lt 1 ENTER  &to 1
             >;
         };
 
@@ -77,7 +77,7 @@
             bindings = <
 &kp EXCLAMATION  &kp AT        &kp HASH      &kp DLLR          &kp PRCNT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &kp EQUAL          &kp UNDERSCORE
 &kp AMPERSAND    &kp ASTERISK  &kp LA(RBKT)  &kp LA(LS(RBKT))  &kp SQT       &kp LEFT_BRACKET      &kp LBRC               &kp RBRC       &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
-&kp TILDE        &kp GRAVE     &kp LA(LBKT)  &kp LA(LS(LBKT))  &kp DQT       &kp COMMA             &kp DOT                &kp LESS_THAN  &kp GREATER_THAN   &kp QUESTION
+&kp TILDE        &kp GRAVE     &kp SLASH     &kp LA(LS(LBKT))  &kp DQT       &kp COMMA             &kp DOT                &kp LESS_THAN  &kp GREATER_THAN   &kp QUESTION
                                              &to 0             &sk LSHIFT    &sk RALT              &to 2
             >;
         };
